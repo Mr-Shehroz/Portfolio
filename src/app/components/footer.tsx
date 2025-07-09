@@ -3,10 +3,10 @@ import { josefinSans } from "../fonts";
 import { GitHubButton, LinkedInButton, TwitterButton } from "./icons";
 export default function Footer() {
     return (
-        <footer className="bg-[#100425] py-10">
-            <Image className="w-[80%] mx-auto" src="/footer-line.svg" height={100} width={100} alt="Footer line" />
-            <div className="max-w-7xl mx-auto flex items-center justify-between mt-6">
-                <h4 className={`text-[18px] font-light text-[#FAFAFA] ${josefinSans.className}`}>2024 - Shehroz Khan, All rights reserved</h4>
+        <footer className="bg-[#100425] 2xl:py-10 lg:py-5 py-3">
+            <Image className="md:w-[80%] w-[100%] bg-[#FAFAFA] mx-auto" src="/footer-line.svg" height={100} width={100} alt="Footer line" />
+            <div className="2xl:max-w-7xl xl:max-w-[980px] lg:max-w-[850px] max-w-[630px] mx-auto flex items-center justify-between mt-6 px-6">
+                <h4 className={`2xl:text-[18px] xl:text-[16px] lg:text-[14px] sm:text-[12px] text-[8px] font-light text-[#FAFAFA] ${josefinSans.className}`}>2024 - Shehroz Khan, All rights reserved</h4>
                 <div className="flex items-center gap-4">
                     <GitHubButton/>
                     <TwitterButton/>

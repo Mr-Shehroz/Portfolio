@@ -5,7 +5,7 @@ const GitHubIcon = () => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 496 512"
-        className="w-6 h-6 fill-current text-white group-hover:text-[#AE0CA7] transition-colors duration-300"
+        className="2xl:w-6 2xl:h-6 xl:w-5 xl:h-5 lg:w-4 lg:h-4 w-3 h-3 fill-current text-white group-hover:text-[#AE0CA7] transition-colors duration-300"
         aria-hidden="true"
         focusable="false"
     >
@@ -58,7 +58,7 @@ const TwitterIcon = () => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
-        className="w-6 h-6 fill-current text-white group-hover:text-[#5DFFFF] transition-colors duration-300"
+        className="2xl:w-6 2xl:h-6 xl:w-5 xl:h-5 lg:w-4 lg:h-4 w-3 h-3 fill-current text-white group-hover:text-[#5DFFFF] transition-colors duration-300"
         aria-hidden="true"
         focusable="false"
     >
@@ -91,7 +91,7 @@ const LinkedInIcon = () => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512"
-        className="w-6 h-6 fill-current text-white group-hover:text-[#5DFFFF] transition-colors duration-300"
+        className="2xl:w-6 2xl:h-6 xl:w-5 xl:h-5 lg:w-4 lg:h-4 w-3 h-3 fill-current text-white group-hover:text-[#5DFFFF] transition-colors duration-300"
         aria-hidden="true"
         focusable="false"
     >

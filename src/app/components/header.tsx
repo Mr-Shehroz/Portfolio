@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Header() {
     return (
-        <div className='bg-[url("/bg-1.png")] bg-cover bg-center bg-no-repeat h-screen'>
+        <div className='bg-[url("/bg-1.webp")] bg-cover bg-center bg-no-repeat h-screen'>
             <header className="sticky top-5 z-50">
                 <div className={`max-w-7xl mx-auto fixed top-5 w-full left-0 right-0 flex items-center justify-between py-4 px-6 ${inter.className}`}>
                     <h1 className={`text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] bg-clip-text text-transparent tracking-wide ${josefinSans.className}`}>

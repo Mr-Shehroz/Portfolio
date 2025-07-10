@@ -70,7 +70,7 @@ export default function Header() {
 
                     </div>
                     <div className='w-full'>
-                        <Image className='2xl:max-w-[545px] xl:max-w-[440px] lg:max-w-[330px] md:max-w-[230px] max-w-full w-full' src="/boy.webp" height={100} width={100} alt='logo' />
+                        <Image className='2xl:max-w-[545px] xl:max-w-[400px] lg:max-w-[330px] md:max-w-[230px] max-w-full w-full' src="/boy.webp" height={100} width={100} alt='logo' />
                     </div>
                 </section>
             </header>

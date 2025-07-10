@@ -10,7 +10,7 @@ export default function About() {
                 <p className="2xl:text-[18px] xl:text-[14px] lg:text-[13px] text-[10px] font-normal lg:leading-[25px] xl:leading-[30px] text-[#FAFAFA] 2xl:pt-10 pt-5">As a full stack developer, I work across the entire development lifecycle using technologies like React, Next.js, Node.js, and MongoDB. I enjoy solving complex problems, optimizing performance, and delivering solid user experiences. I have hands-on experience building responsive front-end interfaces, developing secure and scalable back-end systems, and integrating APIs and databases to create seamless, full-featured applications. I follow modern coding standards, prioritize clean and maintainable code, and enjoy collaborating with teams to turn ideas into real products.</p>
             </div>
             <div className="2xl:py-30 py-10">
-                <Image className="2xl:w-[895px] xl:w-[695px] lg:w-[600px] w-[400px]" src="/skills.svg" height={100} width={100} alt="skills"/>
+                <Image className="2xl:w-[895px] xl:w-[695px] lg:w-[600px] w-[400px]" src="/skills (1).svg" height={100} width={100} alt="skills"/>
             </div>
         </section>
     )

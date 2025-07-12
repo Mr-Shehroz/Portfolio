@@ -33,7 +33,7 @@ export default function Conatct() {
                             <input
                                 type="text"
                                 placeholder="Enter your name"
-                                className={`2xl:px-4 2xl:py-4 px-3 xl:py-3 lg:py-2 py-[4px] 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] font-normal rounded-[10px] bg-[#33274b] text-[#FAFAFA] placeholder:text-[#FAFAFA] focus:outline-none ${josefinSans.className}`}
+                                className={`2xl:px-4 2xl:py-4 px-3 xl:py-3 lg:py-2 md:py-[4px] py-2 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] font-normal rounded-[6px] bg-[#33274b] text-[#FAFAFA] placeholder:text-[#FAFAFA] focus:outline-none ${josefinSans.className}`}
                             />
                         </div>
                         <div className="flex flex-col">
@@ -41,20 +41,20 @@ export default function Conatct() {
                             <input
                                 type="email"
                                 placeholder="Enter your email"
-                                className={`2xl:px-4 2xl:py-4 px-3 xl:py-3 lg:py-2 py-[4px] 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] font-normal rounded-[10px] bg-[#33274b] text-[#FAFAFA] placeholder:text-[#FAFAFA] focus:outline-none ${josefinSans.className}`}
+                                className={`2xl:px-4 2xl:py-4 px-3 xl:py-3 lg:py-2 md:py-[4px] py-2 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] font-normal rounded-[6px] bg-[#33274b] text-[#FAFAFA] placeholder:text-[#FAFAFA] focus:outline-none ${josefinSans.className}`}
                             />
                         </div>
                         <div className="flex flex-col">
                             <label className={`mb-2 font-bold 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] text-[#FAFAFA] ${josefinSans.className}`}>Message</label>
                             <textarea
                                 placeholder="How can i help ?"
-                                className={`xl:p-4 px-4 lg:py-2 py-[4px] 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] font-normal rounded-[10px] bg-[#33274b] text-[#FAFAFA] placeholder:text-[#FAFAFA] focus:outline-none ${josefinSans.className}`}
+                                className={`xl:p-4 px-4 lg:py-2 md:py-[4px] py-2 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] font-normal rounded-[6px] bg-[#33274b] text-[#FAFAFA] placeholder:text-[#FAFAFA] focus:outline-none ${josefinSans.className}`}
                                 rows={4}
                             />
                         </div>
                         <button
                             type="submit"
-                            className={`lg:mt-4 mt-2 2xl:w-[145px] xl:w-[110px] w-[70px] 2xl:text-[14px] xl:text-[12px] text-[8px] lg:leading-[20px] xl:leading-[30px] bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] text-white lg:py-2 py-[6px] 2xl:px-4 px-2 rounded-full font-semibold hover:from-[#AE0CA7] hover:to-[#5DFFFF] transition-all ${josefinSans.className}`}
+                            className={`lg:mt-4 mt-2 2xl:w-[145px] xl:w-[110px] md:w-[70px] w-[80px] 2xl:text-[14px] xl:text-[12px] text-[8px] lg:leading-[20px] xl:leading-[30px] bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] text-white lg:py-2 md:py-[6px] 2xl:px-4 md:px-2 py-2 px-3 rounded-full font-semibold hover:from-[#AE0CA7] hover:to-[#5DFFFF] transition-all ${josefinSans.className}`}
                         >
                             Send Message
                         </button>

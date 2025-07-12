@@ -3,8 +3,9 @@
 import { josefinSans } from "../fonts";
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
+import { useState } from "react";
 
-const containerVariants:Variants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0, y: 50 },
   visible: (i = 0) => ({
     opacity: 1,
@@ -18,6 +19,30 @@ const containerVariants:Variants = {
 };
 
 export default function Contact() {
+  const [loading, setLoading] = useState(false);
+  const [sent, setSent] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+
+    const form = e.currentTarget as HTMLFormElement;
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+
+    if (res.ok) {
+      setSent(true);
+      form.reset();
+    }
+
+    setLoading(false);
+  };
   return (
     <footer id="contact" className="bg-[#100425] 2xl:py-20 lg:py-10 py-5">
       {/* Title Section */}
@@ -96,13 +121,13 @@ export default function Contact() {
           viewport={{ once: true, amount: 0.2 }}
           custom={0.4}
         >
-          <form className="flex flex-col w-full text-white space-y-3 md:p-6 px-4">
+          <form onSubmit={handleSubmit} className="flex flex-col w-full text-white space-y-3 md:p-6 px-4">
             <div className="flex flex-col">
               <label className={`mb-2 font-bold 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] text-[#FAFAFA] ${josefinSans.className}`}>
                 Name
               </label>
               <input
-                type="text"
+                name="name" type="text" required
                 placeholder="Enter your name"
                 className={`2xl:px-4 2xl:py-4 px-3 xl:py-3 lg:py-2 md:py-[4px] py-2 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] font-normal rounded-[6px] bg-[#33274b] text-[#FAFAFA] placeholder:text-[#FAFAFA] focus:outline-none ${josefinSans.className}`}
               />
@@ -113,7 +138,7 @@ export default function Contact() {
                 Email
               </label>
               <input
-                type="email"
+                name="email" type="email" required
                 placeholder="Enter your email"
                 className={`2xl:px-4 2xl:py-4 px-3 xl:py-3 lg:py-2 md:py-[4px] py-2 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] font-normal rounded-[6px] bg-[#33274b] text-[#FAFAFA] placeholder:text-[#FAFAFA] focus:outline-none ${josefinSans.className}`}
               />
@@ -124,6 +149,7 @@ export default function Contact() {
                 Message
               </label>
               <textarea
+                name="message" required
                 placeholder="How can I help?"
                 className={`xl:p-4 px-4 lg:py-2 md:py-[4px] py-2 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] font-normal rounded-[6px] bg-[#33274b] text-[#FAFAFA] placeholder:text-[#FAFAFA] focus:outline-none ${josefinSans.className}`}
                 rows={4}
@@ -131,10 +157,10 @@ export default function Contact() {
             </div>
 
             <button
-              type="submit"
+              type="submit" disabled={loading}
               className={`lg:mt-4 mt-2 2xl:w-[145px] xl:w-[110px] md:w-[70px] w-[80px] 2xl:text-[14px] xl:text-[12px] text-[8px] lg:leading-[20px] xl:leading-[30px] bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] text-white lg:py-2 md:py-[6px] 2xl:px-4 md:px-2 py-2 px-3 rounded-full font-semibold hover:from-[#AE0CA7] hover:to-[#5DFFFF] transition-all ${josefinSans.className}`}
             >
-              Send Message
+              {loading ? "Sending..." : sent ? "Sent!" : "Send Message"}
             </button>
           </form>
         </motion.div>

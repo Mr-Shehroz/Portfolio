@@ -41,33 +41,34 @@ export default function Header() {
                     {/* Nav Menu */}
                     <nav
                         className={`md:flex ${menuOpen
-                                ? 'block absolute w-full left-0 right-0 top-16 rounded-lg p-4 text-center bg-[#5B1F69]/50 backdrop-blur-md border border-white/10 shadow-lg'
-                                : 'hidden'
+                            ? 'block absolute w-full left-0 right-0 top-16 rounded-lg p-4 text-center bg-[#5B1F69]/50 backdrop-blur-md border border-white/10 shadow-lg'
+                            : 'hidden'
                             } 2xl:text-xl xl:text-[16px] lg:text-[14px] text-[10px]`}
                     >
                         <ul className="flex flex-col md:flex-row md:space-x-6 space-y-4 md:space-y-0 items-center">
                             <li>
-                                <a href="#home" className="text-white hover:text-yellow-400 transition duration-300">
+                                <Link href="#home" className="text-white hover:text-yellow-400 transition duration-300">
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#about" className="text-white hover:text-yellow-400 transition duration-300">
+                                <Link href="#about" className="text-white hover:text-yellow-400 transition duration-300">
                                     About
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#work" className="text-white hover:text-yellow-400 transition duration-300">
+                                <Link href="#work" className="text-white hover:text-yellow-400 transition duration-300">
                                     Work
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#contact" className="text-white hover:text-yellow-400 transition duration-300">
+                                <Link href="#contact" className="text-white hover:text-yellow-400 transition duration-300">
                                     Contact
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </nav>
+
 
                 </div>
                 <section className='2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl max-w-2xl mx-auto flex flex-col md:flex-row justify-center items-center md:justify-between gap-5 md:gap-0 2xl:pt-50 lg:pt-30 pt-20 h-[85vh] px-6'>

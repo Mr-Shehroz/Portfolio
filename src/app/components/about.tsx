@@ -29,7 +29,7 @@ export default function About() {
             <div className="2xl:py-30 py-10">
                 {/* Skills Grid */}
                 <div
-                    className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 2xl:gap-10 lg:gap-6 gap-4"
+                    className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 2xl:gap-10 lg:gap-6 gap-4"
                 >
                     {skills.map((skill, index) => (
                         <div

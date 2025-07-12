@@ -131,7 +131,7 @@ export default function Work() {
                             <h4 className={`2xl:text-16px xl:text-[14px] lg:text-[13px] text-[10px] font-semibold ${josefinSans.className} text-[#5DFFFF]`}>Featured  Project</h4>
                             <h2 className={`2xl:text-[34px] xl:text-[24px] lg:text-[22px] text-[16px] font-bold text-[#FAFAFA] ${josefinSans.className}`}>Example Project</h2>
                         </div>
-                        <div className={`bg-[url(/work-bg.png)] xl:mt-13 mt-10 bg-cover bg-center z-50 2xl:w-[620px] 2xl:h-[165px] xl:w-[500px] xl:h-[130px] lg:w-[450px] lg:h-[120px] w-[300px] h-[100px] py-6 xl:px-10 lg:px-8 px-4 ${josefinSans.className} 2xl:text-[18px] xl:text-[14px] lg:text-[13px] text-[9px] font-normal`}>
+                        <div className={`bg-[url(/work-bg.png)] xl:mt-13 mt-10 bg-cover bg-center z-50 2xl:w-[620px] 2xl:h-[165px] xl:w-[500px] xl:h-[130px] lg:w-[450px] lg:h-[120px] w-[300px] h-[100px] py-6 xl:px-10 lg:px-8 px-4 text-white ${josefinSans.className} 2xl:text-[18px] xl:text-[14px] lg:text-[13px] text-[9px] font-normal`}>
                             A web app for visualizing personalized Spotify data. View your
                             top artists, top tracks, recently played tracks, and detailed audio
                             information about each track. Create and save new playlists of
@@ -157,7 +157,7 @@ export default function Work() {
                             <h4 className={`2xl:text-16px xl:text-[14px] lg:text-[13px] text-[10px] text-right font-semibold ${josefinSans.className} text-[#5DFFFF]`}>Featured  Project</h4>
                             <h2 className={`2xl:text-[34px] xl:text-[24px] lg:text-[22px] text-[16px] text-right font-bold text-[#FAFAFA] ${josefinSans.className}`}>Example Project</h2>
                         </div>
-                        <div className={`bg-[url(/work-bg.png)] xl:mt-13 mt-10 bg-cover bg-center z-50 2xl:w-[620px] 2xl:h-[165px] xl:w-[500px] xl:h-[130px] lg:w-[450px] lg:h-[120px] w-[300px] h-[100px] py-6 xl:px-10 lg:px-8 px-4 ${josefinSans.className} 2xl:text-[18px] xl:text-[14px] lg:text-[13px] text-[9px] font-normal`}>
+                        <div className={`bg-[url(/work-bg.png)] xl:mt-13 mt-10 bg-cover bg-center z-50 2xl:w-[620px] 2xl:h-[165px] xl:w-[500px] xl:h-[130px] lg:w-[450px] lg:h-[120px] w-[300px] h-[100px] py-6 xl:px-10 lg:px-8 px-4 text-white ${josefinSans.className} 2xl:text-[18px] xl:text-[14px] lg:text-[13px] text-[9px] font-normal`}>
                             A web app for visualizing personalized Spotify data. View your
                             top artists, top tracks, recently played tracks, and detailed audio
                             information about each track. Create and save new playlists of
@@ -183,7 +183,7 @@ export default function Work() {
                             <h4 className={`2xl:text-16px xl:text-[14px] lg:text-[13px] text-[10px] font-semibold ${josefinSans.className} text-[#5DFFFF]`}>Featured  Project</h4>
                             <h2 className={`2xl:text-[34px] xl:text-[24px] lg:text-[22px] text-[16px] font-bold text-[#FAFAFA] ${josefinSans.className}`}>Example Project</h2>
                         </div>
-                        <div className={`bg-[url(/work-bg.png)] xl:mt-13 mt-10 bg-cover bg-center z-50 2xl:w-[620px] 2xl:h-[165px] xl:w-[500px] xl:h-[130px] lg:w-[450px] lg:h-[120px] w-[300px] h-[100px] py-6 xl:px-10 lg:px-8 px-4 ${josefinSans.className} 2xl:text-[18px] xl:text-[14px] lg:text-[13px] text-[9px] font-normal`}>
+                        <div className={`bg-[url(/work-bg.png)] xl:mt-13 mt-10 bg-cover bg-center z-50 2xl:w-[620px] 2xl:h-[165px] xl:w-[500px] xl:h-[130px] lg:w-[450px] lg:h-[120px] w-[300px] h-[100px] py-6 xl:px-10 lg:px-8 px-4 text-white ${josefinSans.className} 2xl:text-[18px] xl:text-[14px] lg:text-[13px] text-[9px] font-normal`}>
                             A web app for visualizing personalized Spotify data. View your
                             top artists, top tracks, recently played tracks, and detailed audio
                             information about each track. Create and save new playlists of
@@ -209,7 +209,7 @@ export default function Work() {
                             <h4 className={`2xl:text-16px xl:text-[14px] lg:text-[13px] text-[10px] text-right font-semibold ${josefinSans.className} text-[#5DFFFF]`}>Featured  Project</h4>
                             <h2 className={`2xl:text-[34px] xl:text-[24px] lg:text-[22px] text-[16px] text-right font-bold text-[#FAFAFA] ${josefinSans.className}`}>Example Project</h2>
                         </div>
-                        <div className={`bg-[url(/work-bg.png)] xl:mt-13 mt-10 bg-cover bg-center z-50 2xl:w-[620px] 2xl:h-[165px] xl:w-[500px] xl:h-[130px] lg:w-[450px] lg:h-[120px] w-[300px] h-[100px] py-6 xl:px-10 lg:px-8 px-4 ${josefinSans.className} 2xl:text-[18px] xl:text-[14px] lg:text-[13px] text-[9px] font-normal`}>
+                        <div className={`bg-[url(/work-bg.png)] xl:mt-13 mt-10 bg-cover bg-center z-50 2xl:w-[620px] 2xl:h-[165px] xl:w-[500px] xl:h-[130px] lg:w-[450px] lg:h-[120px] w-[300px] h-[100px] py-6 xl:px-10 lg:px-8 px-4 text-white ${josefinSans.className} 2xl:text-[18px] xl:text-[14px] lg:text-[13px] text-[9px] font-normal`}>
                             A web app for visualizing personalized Spotify data. View your
                             top artists, top tracks, recently played tracks, and detailed audio
                             information about each track. Create and save new playlists of

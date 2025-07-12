@@ -56,11 +56,11 @@ export default function Header() {
                         </ul>
                     </nav>
                 </div>
-                <section className='2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl max-w-2xl mx-auto flex flex-col md:flex-row justify-center items-center md:justify-between gap-20 md:gap-0 2xl:pt-50 lg:pt-30 pt-20 h-[85vh] px-6'>
+                <section className='2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl max-w-2xl mx-auto flex flex-col md:flex-row justify-center items-center md:justify-between gap-10 md:gap-0 2xl:pt-50 lg:pt-30 pt-20 h-[85vh] px-6'>
                     <div className='flex flex-col items-start justify-center max-w-[300px] lg:max-w-[510px] xl:max-w-[600px] 2xl:max-w-[700px]'>
-                        <h2 className={`2xl:text-[90px] xl:text-[50px] lg:text-[44px] text-[25px] font-bold lg:leading-18 xl:leading-25 ${josefinSans.className}`}>Hi, I`m Shehroz</h2>
-                        <h3 className={`2xl:text-[50px] lg:text-[30px] text-[16px] font-semibold bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] bg-clip-text text-transparent ${josefinSans.className}`}>Full-Stack Developer.</h3>
-                        <p className={`2xl:text-[18px] xl:text-[16px] lg:text-[14px] text-[10px] font-normal lg:leading-[25px] xl:leading-[30px] ${josefinSans.className}`}>A self-taught full stack developer with over 1 year of hands-on experience, I build scalable, responsive, and user-centric web applications from front to back. I focus on writing clean, maintainable code and designing efficient architectures that ensure smooth functionality, strong performance, and seamless user interactions — all aligned with both technical requirements and business goals.</p>
+                        <h2 className={`2xl:text-[90px] xl:text-[50px] text-white lg:text-[44px] text-[25px] font-bold leading-10 lg:leading-18 xl:leading-25 ${josefinSans.className}`}>Hi, I`m Shehroz</h2>
+                        <h3 className={`2xl:text-[50px] lg:text-[30px] text-[16px] leading-10 md:leading-0 font-semibold bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] bg-clip-text text-transparent ${josefinSans.className}`}>Full-Stack Developer.</h3>
+                        <p className={`2xl:text-[18px] xl:text-[16px] lg:text-[14px] text-[10px] font-normal leading-[18px] lg:leading-[25px] xl:leading-[30px] ${josefinSans.className}`}>A self-taught full stack developer with over 1 year of hands-on experience, I build scalable, responsive, and user-centric web applications from front to back. I focus on writing clean, maintainable code and designing efficient architectures that ensure smooth functionality, strong performance, and seamless user interactions — all aligned with both technical requirements and business goals.</p>
                         <Link
                             href={"/#contact"}
                             className={`font-semibold 2xl:text-[18px] xl:text-[16px] lg:text-[14px] text-[10px] lg:leading-[25px] xl:leading-[30px] bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] 2xl:px-6 xl:px-4 2xl:py-2 py-1 px-3 rounded-full lg:mt-8 mt-4 text-white transition-all duration-300 hover:from-[#AE0CA7] hover:to-[#5DFFFF] ${josefinSans.className}`}
@@ -70,7 +70,7 @@ export default function Header() {
 
                     </div>
                     <div className='w-full'>
-                        <Image className='2xl:max-w-[545px] xl:max-w-[400px] lg:max-w-[330px] sm:max-w-[230px] mx-auto md:mx-0 max-w-full w-full' src="/boy.webp" height={100} width={100} alt='logo' />
+                        <Image className='2xl:max-w-[545px] xl:max-w-[400px] lg:max-w-[330px] sm:max-w-[230px] mx-auto md:mx-0 max-w-[80%] w-full' src="/boy.webp" height={100} width={100} alt='logo' />
                     </div>
                 </section>
             </header>

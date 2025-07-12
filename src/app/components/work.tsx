@@ -150,7 +150,7 @@ export default function Work() {
 
 
 
-                <div className="2xl:max-w-5xl xl:max-w-3xl lg:max-w-2xl max-w-[450px] lg:mx-auto 2xl:mt-50 xl:mt-30 mt-25 px-4 flex flex-col-reverse justify-center items-center relative">
+                <div className="2xl:max-w-5xl xl:max-w-3xl lg:max-w-2xl max-w-[450px] mx-auto 2xl:mt-50 xl:mt-30 mt-25 px-4 flex flex-col-reverse justify-center items-center relative">
                     <Image className="absolute lg:rotate-0 rotate-180 -left-150 -top-100 z-0 w-[1300px] h-[700px] rounded-full" src="/work-light.svg" height={100} width={100} alt="work-light" />
                     <div className="z-50">
                         <div>
@@ -202,7 +202,7 @@ export default function Work() {
 
 
 
-                <div className="2xl:max-w-5xl xl:max-w-3xl lg:max-w-2xl max-w-[450px] lg:mx-auto 2xl:mt-50 xl:mt-30 mt-25 px-4 flex flex-col-reverse justify-center items-center relative">
+                <div className="2xl:max-w-5xl xl:max-w-3xl lg:max-w-2xl max-w-[450px] mx-auto 2xl:mt-50 xl:mt-30 mt-25 px-4 flex flex-col-reverse justify-center items-center relative">
                     <Image className="absolute lg:rotate-0 rotate-180 -left-150 -top-100 z-0 w-[1300px] h-[700px] rounded-full" src="/work-light.svg" height={100} width={100} alt="work-light" />
                     <div className="z-50">
                         <div>

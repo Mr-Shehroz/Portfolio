@@ -1,11 +1,11 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { josefinSans } from "../fonts";
 import { GitHubButton, LinkedInButton, TwitterButton } from "./icons";
 
-const containerVariants = {
+const containerVariants:Variants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
         opacity: 1,

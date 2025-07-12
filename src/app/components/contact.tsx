@@ -26,7 +26,7 @@ export default function Conatct() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-[url('/contact-bg.png')] bg-cover bg-center bg-no-repeat 2xl:h-[467px] 2xl:w-[527px] xl:h-[400px] xl:w-[480px] lg:w-[420px] lg:h-[350px] md:w-[300px] md:h-[250px] w-[100%] h-[300px] rounded-2xl shadow-lg lg:px-8 lg:py-8 px-2 flex items-center justify-center mt-10 md:mt-0">
+                <div className="bg-[url('/contact-bg.png')] bg-cover bg-center bg-no-repeat 2xl:h-[467px] 2xl:w-[527px] xl:h-[400px] xl:w-[480px] lg:w-[420px] lg:h-[350px] sm:w-[300px] md:h-[270px] w-[100%] h-[300px] rounded-2xl shadow-lg lg:px-8 lg:py-8 px-2 flex items-center justify-center mt-10 md:mt-0">
                     <form className="flex flex-col w-full text-white space-y-3 md:p-6 px-4">
                         <div className="flex flex-col">
                             <label className={`mb-2 font-bold 2xl:text-[14px] xl:text-[12px] lg:text-[10px] text-[8px] text-[#FAFAFA] ${josefinSans.className}`}>Name</label>

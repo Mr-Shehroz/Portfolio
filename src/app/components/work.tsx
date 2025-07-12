@@ -5,7 +5,7 @@ import { GitHubButton, LinkedInButton, TwitterButton } from "./icons";
 export default function Work() {
     return (
         <div>
-            <section id="work" className="hidden md:block bg-[#100425] 2xl:py-20 py-15 z-50 overflow-hidden">
+            <section id="work" className="hidden md:block bg-[#100425] 2xl:py-20 py-15 z-20 overflow-hidden">
                 <div className="flex flex-col items-center">
                     <h2 className={`2xl:text-[66px] xl:text-[46px] lg:text-[35px] text-[25px] font-semibold bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] bg-clip-text text-transparent ${josefinSans.className}`}>Recent Work</h2>
                     <p className={`${josefinSans.className} 2xl:text-[18px] xl:text-[16px] lg:text-[14px] text-[10px] font-normal text-center text-[#FAFAFA]`}>A collection of projects I've worked on.</p>
@@ -118,7 +118,7 @@ export default function Work() {
 
 
             
-            <section id="work" className="md:hidden bg-[#100425] 2xl:py-20 py-15 z-50 overflow-hidden">
+            <section id="work" className="md:hidden bg-[#100425] 2xl:py-20 py-15 overflow-hidden">
                 <div className="flex flex-col items-center">
                     <h2 className={`2xl:text-[66px] xl:text-[46px] lg:text-[35px] text-[25px] font-semibold bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] bg-clip-text text-transparent ${josefinSans.className}`}>Recent Work</h2>
                     <p className={`${josefinSans.className} 2xl:text-[18px] xl:text-[16px] lg:text-[14px] text-[10px] font-normal text-center text-[#FAFAFA]`}>A collection of projects I've worked on.</p>
@@ -126,7 +126,7 @@ export default function Work() {
 
                 <div className="2xl:max-w-7xl xl:max-w-5xl lg:max-w-4xl max-w-2xl mx-auto 2xl:mt-50 xl:mt-30 lg:mt-25 mt-15 px-4 flex flex-col justify-center items-center relative">
                     <Image className="absolute -right-100 2xl:-top-100 top-0 z-0 w-[1300px] h-[700px] rounded-full" src="/work-light.svg" height={100} width={100} alt="work-light" />
-                    <div className="z-50">
+                    <div className="z-20">
                         <div>
                             <h4 className={`2xl:text-16px xl:text-[14px] lg:text-[13px] text-[10px] font-semibold ${josefinSans.className} text-[#5DFFFF]`}>Featured  Project</h4>
                             <h2 className={`2xl:text-[34px] xl:text-[24px] lg:text-[22px] text-[16px] font-bold text-[#FAFAFA] ${josefinSans.className}`}>Example Project</h2>
@@ -152,7 +152,7 @@ export default function Work() {
 
                 <div className="2xl:max-w-5xl xl:max-w-3xl lg:max-w-2xl max-w-[450px] mx-auto 2xl:mt-50 xl:mt-30 mt-25 px-4 flex flex-col-reverse justify-center items-center relative">
                     <Image className="absolute lg:rotate-0 rotate-180 -left-150 -top-100 z-0 w-[1300px] h-[700px] rounded-full" src="/work-light.svg" height={100} width={100} alt="work-light" />
-                    <div className="z-50">
+                    <div className="z-20">
                         <div>
                             <h4 className={`2xl:text-16px xl:text-[14px] lg:text-[13px] text-[10px] text-right font-semibold ${josefinSans.className} text-[#5DFFFF]`}>Featured  Project</h4>
                             <h2 className={`2xl:text-[34px] xl:text-[24px] lg:text-[22px] text-[16px] text-right font-bold text-[#FAFAFA] ${josefinSans.className}`}>Example Project</h2>
@@ -178,7 +178,7 @@ export default function Work() {
 
                 <div className="2xl:max-w-7xl xl:max-w-5xl lg:max-w-4xl max-w-2xl mx-auto 2xl:mt-50 xl:mt-30 mt-25 px-4 flex flex-col justify-center items-center relative">
                     <Image className="absolute -right-100 -top-100 z-0 w-[1300px] h-[700px] rounded-full" src="/work-light.svg" height={100} width={100} alt="work-light" />
-                    <div className="z-50">
+                    <div className="z-20">
                         <div>
                             <h4 className={`2xl:text-16px xl:text-[14px] lg:text-[13px] text-[10px] font-semibold ${josefinSans.className} text-[#5DFFFF]`}>Featured  Project</h4>
                             <h2 className={`2xl:text-[34px] xl:text-[24px] lg:text-[22px] text-[16px] font-bold text-[#FAFAFA] ${josefinSans.className}`}>Example Project</h2>
@@ -204,7 +204,7 @@ export default function Work() {
 
                 <div className="2xl:max-w-5xl xl:max-w-3xl lg:max-w-2xl max-w-[450px] mx-auto 2xl:mt-50 xl:mt-30 mt-25 px-4 flex flex-col-reverse justify-center items-center relative">
                     <Image className="absolute lg:rotate-0 rotate-180 -left-150 -top-100 z-0 w-[1300px] h-[700px] rounded-full" src="/work-light.svg" height={100} width={100} alt="work-light" />
-                    <div className="z-50">
+                    <div className="z-20">
                         <div>
                             <h4 className={`2xl:text-16px xl:text-[14px] lg:text-[13px] text-[10px] text-right font-semibold ${josefinSans.className} text-[#5DFFFF]`}>Featured  Project</h4>
                             <h2 className={`2xl:text-[34px] xl:text-[24px] lg:text-[22px] text-[16px] text-right font-bold text-[#FAFAFA] ${josefinSans.className}`}>Example Project</h2>

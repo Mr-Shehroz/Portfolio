@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { inter, josefinSans } from '../fonts';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import Typewriter from 'typewriter-effect';
 
 
 export default function Header() {
@@ -79,7 +80,24 @@ export default function Header() {
                         transition={{ duration: 0.6 }}
                         className='flex flex-col items-start justify-center max-w-[300px] lg:max-w-[510px] xl:max-w-[600px] 2xl:max-w-[700px]'>
                         <h2 className={`2xl:text-[90px] xl:text-[50px] text-white lg:text-[44px] text-[25px] font-bold leading-10 lg:leading-18 xl:leading-25 ${josefinSans.className}`}>Hi, I`m Shehroz</h2>
-                        <h3 className={`2xl:text-[50px] lg:text-[30px] text-[16px] leading-10 md:leading-0 font-semibold bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] bg-clip-text text-transparent ${josefinSans.className}`}>Full-Stack Developer.</h3>
+                        <h3
+                            className={`2xl:text-[50px] lg:text-[30px] text-[16px] leading-10 md:leading-normal font-semibold bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] bg-clip-text text-transparent ${josefinSans.className}`}
+                        >
+                            <span className="inline-block mr-2">I am a</span>
+                            <span className="inline-block">
+                                <Typewriter
+                                    options={{
+                                        strings: ['Frontend Developer', 'Backend Developer', 'Full Stack Developer'],
+                                        autoStart: true,
+                                        loop: true,
+                                        delay: 75,
+                                        deleteSpeed: 50,
+                                        cursor: '|',
+                                    }}
+                                />
+                            </span>
+                        </h3>
+
                         <p className={`2xl:text-[18px] xl:text-[16px] lg:text-[14px] text-[10px] font-normal leading-[18px] lg:leading-[25px] xl:leading-[30px] text-white ${josefinSans.className}`}>A self-taught full stack developer with over 1 year of hands-on experience, I build scalable, responsive, and user-centric web applications from front to back. I focus on writing clean, maintainable code and designing efficient architectures that ensure smooth functionality, strong performance, and seamless user interactions — all aligned with both technical requirements and business goals.</p>
                         <Link
                             href={"/#contact"}

@@ -162,7 +162,7 @@ export default function Header() {
                         <p className={`2xl:text-[18px] xl:text-[16px] lg:text-[14px] text-[10px] font-normal leading-[18px] lg:leading-[25px] xl:leading-[30px] text-white ${josefinSans.className}`}>A self-taught full stack developer with over 1 year of hands-on experience, I build scalable, responsive, and user-centric web applications from front to back. I focus on writing clean, maintainable code and designing efficient architectures that ensure smooth functionality, strong performance, and seamless user interactions — all aligned with both technical requirements and business goals.</p>
                         <Link
                             href="/#contact"
-                            className={`relative inline-block font-semibold 2xl:text-[20px] xl:text-[16px] lg:text-[14px] text-[10px] 2xl:px-8 xl:px-6 lg:px-4 px-3 2xl:py-4 xl:py-3 lg:py-3 py-2 rounded-full lg:mt-10 mt-6 text-white bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] shadow-lg hover:shadow-2xl hover:scale-105 hover:from-[#AE0CA7] hover:to-[#5DFFFF] ${josefinSans.className}`}
+                            className={`relative inline-block font-semibold 2xl:text-[20px] xl:text-[16px] lg:text-[14px] text-[8px] 2xl:px-8 xl:px-6 lg:px-4 px-3 2xl:py-4 xl:py-3 lg:py-3 py-2 rounded-full lg:mt-10 mt-4 text-white bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] shadow-lg hover:shadow-2xl hover:scale-105 hover:from-[#AE0CA7] hover:to-[#5DFFFF] ${josefinSans.className}`}
                         >
                             Let's Connect
                         </Link>

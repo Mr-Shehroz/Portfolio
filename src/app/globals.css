@@ -18,6 +18,15 @@
     --foreground: #ededed;
   }
 }
+.swiper-pagination-bullet {
+  background: #555 !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #5DFFFF !important;
+}
+
 
 body {
   background: var(--background);

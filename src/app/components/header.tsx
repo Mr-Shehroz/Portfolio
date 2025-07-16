@@ -74,6 +74,67 @@ export default function Header() {
 
                 </div>
                 <section className='2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl max-w-2xl mx-auto flex flex-col md:flex-row justify-center items-center md:justify-between gap-5 md:gap-0 2xl:pt-50 lg:pt-30 pt-20 h-[85vh] px-6'>
+
+                    {/* Floating Background Shapes */}
+                    <div className="absolute inset-0 overflow-hidden z-0 pointer-events-none">
+
+                        {/* Rotating Square */}
+                        <motion.div
+                            initial={{ rotate: 0 }}
+                            animate={{ rotate: 360 }}
+                            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+                            className="absolute md:right-[15%] md:top-[30%] top-[63%] right-[10%] sm:right-[30%] 2xl:w-16 2xl:h-16 lg:w-12 lg:h-12 w-8 h-8 border-2 border-white/20 rotate-45"
+                        />
+
+                        {/* Dotted Grid */}
+                        <div className="absolute sm:bottom-[10%] bottom-2 right-[5%] grid grid-cols-3 gap-2">
+                            {[...Array(9)].map((_, i) => (
+                                <div key={i} className="lg:w-2 lg:h-2 w-[6px] h-[6px] rounded-full bg-white/10" />
+                            ))}
+                        </div>
+
+                        {/* Sparkling Star */}
+                        <motion.div
+                            initial={{ opacity: 0.2, scale: 1 }}
+                            animate={{ opacity: 0.4, scale: 1.3 }}
+                            transition={{ duration: 3, repeat: Infinity, repeatType: 'mirror' }}
+                            className="absolute 2xl:top-[25%] 2xl:left-[20%] lg:top-[20%] sm:top-[15%] top-[10%] left-[10%]"
+                        >
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="#ffffff44">
+                                <path d="M12 2L13.09 8.26L19 9.27L14.5 13.14L15.82 19L12 15.77L8.18 19L9.5 13.14L5 9.27L10.91 8.26L12 2Z" />
+                            </svg>
+                        </motion.div>
+
+                        {/* SVG Blob */}
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            animate={{ opacity: 0.3, scale: 1 }}
+                            transition={{ duration: 6, repeat: Infinity, repeatType: 'mirror' }}
+                            className="absolute top-[15%] left-[50%] w-[250px] h-[250px] blur-2xl"
+                        >
+                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="w-full h-full fill-[#AE0CA7]/40">
+                                <path d="M37.4,-61.8C48.5,-56.3,58.7,-48.1,66.2,-37.7C73.8,-27.2,78.7,-13.6,77.8,-0.4C76.9,12.7,70.1,25.3,62,38C53.9,50.8,44.4,63.7,31.7,68.4C19,73.2,3.1,69.7,-12.4,65.8C-27.9,61.9,-43,57.7,-54.1,47.3C-65.2,36.9,-72.3,20.4,-71.8,5C-71.3,-10.4,-63.1,-20.8,-55.5,-31.8C-47.9,-42.8,-40.9,-54.3,-30.5,-61.6C-20.1,-69,-10,-72.3,2.2,-75.5C14.4,-78.6,28.8,-81.2,37.4,-61.8Z" transform="translate(100 100)" />
+                            </svg>
+                        </motion.div>
+
+                        {/* Rotating Triangle */}
+                        <motion.div
+                            initial={{ rotate: 0 }}
+                            animate={{ rotate: 360 }}
+                            transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
+                            className="absolute xl:top-[40%] xl:left-[60%] md:top-[40%] lg:left-[53%] md:left-[50%] top-[64%] sm:left-[30%] left-[20%] w-0 h-0 lg:border-l-[20px] border-l-[14px] lg:border-r-[20px] border-r-[14px] lg:border-b-[35px] border-b-[26px] border-l-transparent border-r-transparent border-b-white/30"
+                        />
+
+                        {/* Pulsing Ring */}
+                        <motion.div
+                            initial={{ scale: 1, opacity: 0.1 }}
+                            animate={{ scale: 1.4, opacity: 0.3 }}
+                            transition={{ duration: 4, repeat: Infinity, repeatType: 'mirror' }}
+                            className="absolute 2xl:bottom-12 bottom-3 2xl:left-[37%] sm:left-[30%] left-[10%] 2xl:w-20 2xl:h-20 xl:w-16 xl:h-16 lg:w-12 lg:h-12 w-8 h-8 border-2 border-[#5DFFFF]/30 rounded-full"
+                        />
+
+                    </div>
+
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 1, x: 0 }}
@@ -83,7 +144,7 @@ export default function Header() {
                         <h3
                             className={`2xl:text-[50px] lg:text-[30px] text-[16px] leading-10 md:leading-normal font-semibold bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7] bg-clip-text text-transparent ${josefinSans.className}`}
                         >
-                            <span className="inline-block mr-2">I am a</span>
+                            {/* <span className="inline-block mr-2">I am a</span> */}
                             <span className="inline-block">
                                 <Typewriter
                                     options={{
